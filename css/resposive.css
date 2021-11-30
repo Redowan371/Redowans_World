@@ -1,0 +1,129 @@
+@media(max-width:991px){
+    .portfolio-section .portfolio-item,
+    .service-section .service-item{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+
+
+@media(max-width:767px){
+    .contact-section .w-50,
+    .contact-section .contact-item,
+    .portfolio-popup .description,
+    .portfolio-popup .info,
+    .portfolio-section .portfolio-item,
+    .service-section .service-item,
+    .about-section .skills .skill-item,
+    .about-section .about-info,
+    .about-section .about-img,
+    .home-section .home-text,
+    .home-section .home-img{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .home-section .home-text{
+        order: 2;
+    }
+    .contact-section .submit-btn,
+    .home-section .home-text{
+        text-align: center;
+    }
+    .home-section .home-text h2{
+        font-size: 28px;
+    }
+    .home-section .home-img .img-box {
+        margin-bottom: 40px;
+        max-width: 350px;
+    }
+    .home-section .full-screen{
+        padding: 100px;
+    }
+    .effect-3{
+        margin-left: -60px;
+    }
+    .effect-4{
+        left: 15%;
+    }
+    .effect-4{
+        right: 4%;
+    }
+    .about-section .about-img{
+        padding-bottom: 30px;
+    }
+    .about-section .about-info{
+        text-align: center;
+    }
+    .about-section .about-info span{
+        font-size: 14px;
+    }
+    .about-section .timeline .timeline-item:nth-child(odd){
+        padding-right: 15px;
+        text-align: center;
+    }
+    .about-section .timeline .timeline-item:nth-child(even){
+        padding-left: 15px;
+        
+    }
+    .about-section .timeline .timeline-item{
+        padding-bottom: 15px;
+    }
+    .about-section .timeline .timeline-item-inner .icon{
+        display: none;
+    }
+    .about-section .timeline:before{
+        display: none;
+    }
+    .about-section .timeline .timeline-item-inner:before{
+        display: none;
+    }
+    .portfolio-popup .pp-project-details h3{
+        margin-top: 12px;
+    }
+    .portfolio-popup .pp-prev {
+        left: -3px;
+    }
+    .portfolio-popup .pp-next {
+        right: -3px;
+    }
+}
+@media(max-width:574px){
+    .home-section .home-img .img-box{
+        max-width: 260px;
+    }
+    .home-section .home-text h1{
+        position: absolute;
+        top: 42%;
+        font-size: 22px;
+        color: var(--text-black-300);
+        transform: translateY(-50%) rotate(-90deg);
+        left: 0px;
+    }
+   .home-section .home-text h2 {
+        position: absolute;
+        top: 42%;
+        font-size: 22px;
+        color: var(--text-black-600);
+        transform: translateY(-50%) rotate(-90deg);
+        left: -111px;
+    }
+    .home-section .home-text p{
+        position: absolute;
+        top: 42%;
+        font-size: 22px;
+        color: var(--text-black-300);
+        transform: translateY(-50%) rotate(-90deg);
+        left: 0px;
+    }
+    .nav-menu .copyright-text{
+        font-size: 13px;
+        
+    }
+    .home-section .home-text .btn-1{
+        font-size: 10px;
+    }
+    .home-section .home-text h1{
+        font-size: 16px;
+    }
+}
